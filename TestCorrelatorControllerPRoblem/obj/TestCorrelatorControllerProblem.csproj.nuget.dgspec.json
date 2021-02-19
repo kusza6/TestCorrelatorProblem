@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\work\\playground\\testCorrelatorControllerProblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerProblem.csproj": {}
+  },
+  "projects": {
+    "C:\\work\\playground\\testCorrelatorControllerProblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerProblem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\work\\playground\\testCorrelatorControllerProblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerProblem.csproj",
+        "projectName": "TestCorrelatorControllerProblem",
+        "projectPath": "C:\\work\\playground\\testCorrelatorControllerProblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerProblem.csproj",
+        "packagesPath": "C:\\Users\\JA030KE.PBI\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\playground\\testCorrelatorControllerProblem\\TestCorrelatorControllerPRoblem\\TestCorrelatorControllerPRoblem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\JA030KE.PBI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://devtdrive.corpdom1.com/nuget/dotnetcore/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.TestCorrelator": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
